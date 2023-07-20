@@ -1,0 +1,207 @@
+h1
+    {
+    color:lightpink;
+    font-size: 30pt;
+    text-align: center;
+    }
+
+h1:hover
+    {
+    color:lightblue ;
+    font-size: 30pt;
+    }
+
+a
+    {
+    font-size: 20pt;
+    padding-right: 30px;
+    text-decoration: none;
+    font-family: verdana;
+    color: lightgreen;
+    font-weight: 600;
+    }
+
+a:hover
+    {
+    color: lightsalmon;
+    background-color: lightslategray;
+    }
+
+.logo
+    {
+    width: 20%;
+    height: 50px;
+    background-color:lavender;
+    float: left;  
+    }
+
+.menu
+    {
+        width: 80%;
+        height: 50px;
+        background-color: plum;
+        float: left;
+    
+    }
+
+.slider
+    {
+        width: 100%;
+        height: 680px;
+        background-color: khaki;
+        float: left;
+    }
+
+.Box1
+    {
+        width: 25%;
+        height: 250px;
+        background-color: rgb(150, 209, 233);
+        float: left;
+    }
+
+.Box2
+    {
+        width: 25%;
+        height: 250px;
+        background-color: skyblue;
+        float: left;
+    }
+
+.Box3
+    {
+        width: 25%;
+        height: 250px;
+        background-color: rgb(121, 201, 233);
+        float: left;
+    }
+
+.Box4
+    {
+        width: 25%;
+        height: 250px;
+        background-color: rgb(110, 198, 233);
+        float: left;
+    }
+
+.Section1
+    {
+        width: 50%;
+        height: 250px;
+        background-color: rgb(206, 158, 166);
+        float: left;
+    }
+
+.Section2
+    {
+        width: 50%;
+        height: 250px;
+        background-color: rgb(230, 154, 166);
+        float: left;
+    }
+
+.Footer
+    {
+        width: 100%;
+        height: 45px;
+        background-color: palevioletred;
+        float: left;
+    }
+
+table, tr, td, th
+    {
+        border: 2px solid darkgrey;
+        border-collapse: collapse;
+        margin-top: 5rem;
+        margin-left: 15%;
+        width: 60rem;
+        height: 5rem;
+
+    }
+
+td
+    {
+        padding: 6px;
+    }
+
+th
+    {
+        background-color: cornflowerblue;
+        color: azure;
+    }
+
+tr
+    {
+        background-color: cornsilk;
+       
+
+
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: rgb(228, 199, 189);
+    }
+
+tr:hover
+    {
+        background-color: rgb(192, 157, 192);
+    }
+    .profile-image {
+        width: 400px;
+        height: 500px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 20px auto;
+        display: block;
+    }
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        height: 50rem;
+    }
+    
+    .image-container img {
+    
+        max-width: 30rem;
+        height: 50rem;
+    }
+        
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 20px;
+        text-align: center;
+        height: 50rem;
+
+    }
+    
+    .box1 img,
+    .box2 img,
+    .box3 img,
+    .box4 img {
+        max-width: 20rem;
+        height: 12rem;
+    }
+    
+    .box1 h2,
+    .box2 h2,
+    .box3 h2,
+    .box4 h2{
+        margin-top: 10px;
+    }
+    
+    .box1 p,
+    .box2 p,
+    .box3 p,
+    .box4 p {
+        margin-top: 10px;
+    }
